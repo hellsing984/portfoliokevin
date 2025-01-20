@@ -12,22 +12,24 @@
   <nav class="fixed top-0 left-0 w-full bg-black text-white shadow-md z-50">
     <div class="container mx-auto flex justify-between items-center p-4">
       <img src="./image/Cleric.jpg" alt="Logo Sicre Kevin" class="h-8 cursor-pointer" id="logo" />
-      <ul id="menu" class="flex space-x-6">
-        <li><a href="./image/CV.pdf" download="CV_Sicre_Kevin.pdf" class="bg-green-600 px-4 py-2 rounded hover:bg-green-500">Télécharger le CV</a></li>
-        <li><a href="#" class="hover:text-gray-400">Produits</a></li>
-        <li><a href="#" class="hover:text-gray-400">Solutions</a></li>
-        <li><a href="#" class="hover:text-gray-400">Ressources</a></li>
-        <li><a href="#" class="hover:text-gray-400">Contact</a></li>
-        <li><button class="bg-blue-600 px-4 py-2 rounded hover:bg-blue-500">Bienvenue</button></li>
-      </ul>
+      <div>
+        <ul id="menu" class="flex space-x-6">
+          <li><a href="./image/CV.pdf" download="CV_Sicre_Kevin.pdf" class="bg-green-600 px-4 py-2 rounded hover:bg-green-500">Télécharger le CV</a></li>
+          <li><a href="#" class="hover:text-gray-400">Produits</a></li>
+          <li><a href="#" class="hover:text-gray-400">Solutions</a></li>
+          <li><a href="#" class="hover:text-gray-400">Ressources</a></li>
+          <li><a href="#" class="hover:text-gray-400">Contact</a></li>
+        </ul>
+        <li><a href="#" class="hover:text-gray-400" id="Menu1">Menu déroulant</a></li> <!-- Rapproché de menu -->
+      </div>
     </div>
-  </nav>
+    </nav>
   <!-- Header Section -->
   <header class="bg-cover bg-center h-96 flex items-center justify-center"
     style="background-image: url('./image/x720.jpeg')">
     <div class="text-center">
-      <h1 class="text-5xl font-bold">Sicre</h1>
-      <p class="text-2xl">Kevin</p>
+      <h1 class="text-5xl font-bold text-red-500">Sicre</h1>
+      <p class="text-2xl text-red-500">Kevin</p>
     </div>
   </header>
   <!-- About Section -->
@@ -104,6 +106,7 @@
       </div>
       <div class="form-group">
         <button type="submit">Envoyer</button>
+        <button class="bg-blue-600 px-4 py-2 rounded hover:bg-blue-500">inscription</button>
       </div>
     </form>
   </div>
