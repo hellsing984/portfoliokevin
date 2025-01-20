@@ -118,12 +118,3 @@ li.langages {
       height: 50px;
   }
 }
-/*
-#menu {
-  transform: translateX(-100%);
-}
-
-#menu.active {
-  transform: translateX(0);
-}
-
