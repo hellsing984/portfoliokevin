@@ -9,11 +9,11 @@ body {
 }
 .contact-container {
   max-width: 600px;
-  margin: 50px auto;
+  margin: 100px auto;
   background: #8080803b;
-  padding: 20px;
+  padding: 80px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .contact-container h2 {
   text-align: center;
@@ -108,7 +108,7 @@ li{
       width:  calc(50% - 20px);
   }
   .contact{
-      width: 100%;
+      width: 50%;
   }
   .contact__input {
       border-radius: 40px;
