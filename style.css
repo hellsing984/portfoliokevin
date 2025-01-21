@@ -6,6 +6,45 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+#portfolio {
+  padding: 20px;
+  text-align: center;
+}
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s;
+}
+.project-card img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+.project-card h3 {
+  margin: 10px 0;
+}
+.project-card p {
+  color: #555;
+}
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007BFF;
+  text-decoration: none;
+}
+.project-card:hover {
+  transform: scale(1.05);
 }
 .contact-container {
   max-width: 600px;
