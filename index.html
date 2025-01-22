@@ -13,29 +13,28 @@
     <div class="container mx-auto flex justify-between items-center p-4">
       <img src="./image/Cleric.jpg" alt="Logo Sicre Kevin" class="h-8 cursor-pointer" id="logo" />
       <div>
-        <ul id="menu" class="flex space-x-6">
-          <li><a href="./image/CV.pdf" download="CV_Sicre_Kevin.pdf">Télécharger le CV</a></li>
-          <li><a href="#" class="hover:text-gray-400">Produits</a></li>
-          <li><a href="#" class="hover:text-gray-400">Solutions</a></li>
-          <li><a href="#" class="hover:text-gray-400">Ressources</a></li>
-          <li><a href="#contact-container" class="hover:text-gray-400">Contact</a></li>
+        <ul id="menu" class="flex space-x-6 hidden">
+            <li><a href="./image/CV.pdf" download="CV_Sicre_Kevin.pdf">Télécharger le CV</a></li>
+            <li><a href="#" class="hover:text-gray-400">Produits</a></li>
+            <li><a href="#" class="hover:text-gray-400">Solutions</a></li>
+            <li><a href="#" class="hover:text-gray-400">Ressources</a></li>
+            <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
         </ul>
         <li>
-
-          <li><a href="#" id="Menu1" class="hover:text-gray-400">
-            <img  id="open" src="https://icongr.am/clarity/bars.svg?size=46&color=ffffff" alt="Menu Icon" class="inline-block h-6 w-6 hidden" /></a>
-            <img  id="close"src="https://icongr.am/clarity/close.svg?size=46&color=ffffff" alt="Close Icon" class="inline-block h-6 w-6 " />
-          </a></li>
+            <a href="#" id="Menu1">
+                <img id="open" src="https://icongr.am/clarity/bars.svg?size=86&color=fafafa" alt="Menu Icon" class="inline-block h-6 w-6 hidden" />
+                <img id="close" src="https://icongr.am/clarity/close.svg?size=86&color=ffffff" alt="Close Icon" class="inline-block h-6 w-6 hidden" />
+            </a>
         </li>
-      </div>
-    </div>
-    </nav>
+     </div>    
+  </div>
+</nav>
   <!-- Header Section -->
   <header class="bg-cover bg-center h-96 flex items-center justify-center"
     style="background-image: url('./image/x720.jpeg')">
     <div class="text-center">
-      <h1 class="text-5xl font-bold text-red-500">Sicre</h1>
-      <p class="text-2xl text-red-500">Kevin</p>
+      <h1 class="text-5xl font-bold text-gray-900">Sicre</h1>
+      <p class="text-2xl text-gray-900">Kevin</p>
     </div>
   </header>
   <!-- About Section -->
@@ -57,8 +56,7 @@
       qualité.
     </p>
     <!-- Project Gallery -->
-     <div id="contact" >
-
+     <div id="produit" >
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         <div class="bg-gray-800 p-4 rounded">
           <img src="./image/pomme.png" alt="Code parfum" class="rounded mb-4 transition duration-300 transform hover:scale-110"/>
@@ -102,9 +100,11 @@
           <a href="https://github.com/hellsing984/epreuves" class="text-blue-500 underline"target="_blank">Voir  source</a>
         </div>
      </div>
+   </div>
   <!--contact-->
   <div>
   </div>
+  <div id="contact">
   <div class="contact-container">
     <h2>Formulaire de Contact</h2>
     <form action="#" method="post">
@@ -128,7 +128,8 @@
         <button type="submit">Envoyer</button>
         <button class="bg-blue-600 px-4 py-2 rounded hover:bg-blue-500">inscription</button>
       </div>
-    </form>
+      </form>
+    </div>
   </div>
   <!-- Additional Section -->
   <section class="bg-gray-700 py-12">

@@ -8,6 +8,12 @@ body {
   background-color: #f9f9f9;
   font-family: Arial, sans-serif;
 }
+.hidden {
+  display: none;
+}
+.inline-block {
+  display: inline-block;
+}
 #portfolio {
   padding: 20px;
   text-align: center;

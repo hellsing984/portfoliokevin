@@ -7,16 +7,29 @@
         }
       });
     });
-      // Sélection du logo et du menu
-      const logo = document.getElementById('Menu1');
-      const menu = document.getElementById('menu');
-    
-      // Ajout d'un événement de clic sur le logo
-      logo.addEventListener('click', function() {
-        // Alterne la visibilité du menu
-        menu.classList.toggle('hidden');
-      
-      });
+ // Sélection des éléments
+const menuButton = document.getElementById('Menu1'); // Bouton cliquable
+const menu = document.getElementById('menu'); // Menu
+const openIcon = document.getElementById('open'); // Icône "bars"
+const closeIcon = document.getElementById('close'); // Icône "close"
+
+// Ajouter un événement de clic au bouton
+menuButton.addEventListener('click', function () {
+  // Alterner la visibilité du menu
+  menu.classList.toggle('hidden');
+  // Alterner la visibilité des icônes
+  if (menu.classList.contains('hidden')) {
+    // Si le menu est masqué, montrer l'icône "bars" et cacher l'icône "close"
+    openIcon.classList.remove('hidden');
+    closeIcon.classList.add('hidden');
+  } else {
+    // Si le menu est visible, montrer l'icône "close" et cacher l'icône "bars"
+    openIcon.classList.add('hidden');
+    closeIcon.classList.remove('hidden');
+  }
+});
+
+
       // /*code pour que le js prend le json en compte */
       // fetch("style.json")
       // .then(response => {
