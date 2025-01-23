@@ -20,12 +20,12 @@ menuButton.addEventListener('click', function () {
   // Alterner la visibilité des icônes
   if (menu.classList.contains('hidden')) {
     // Si le menu est masqué, montrer l'icône "bars" et cacher l'icône "close"
-    openIcon.classList.remove('hidden');
-    closeIcon.classList.add('hidden');
+    openIcon.classList.remove('invisible');
+    closeIcon.classList.add('invisible');
   } else {
     // Si le menu est visible, montrer l'icône "close" et cacher l'icône "bars"
-    openIcon.classList.add('hidden');
-    closeIcon.classList.remove('hidden');
+    openIcon.classList.add('invisible');
+    closeIcon.classList.remove('invisible');
   }
 });
 
